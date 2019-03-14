@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pratik Mahesh Lodha</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	    <script type="text/javascript">
+	      google.charts.load('current', {
+	        'packages':['geochart'],
+	        // Note: you will need to get a mapsApiKey for your project.
+	        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+	        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+	      });
+	      google.charts.setOnLoadCallback(drawRegionsMap);
+
+	      function drawRegionsMap() {
+	        var data = google.visualization.arrayToDataTable([
+	          ['Country', 'Date'],
+	          ['India', 100],
+	          ['United States', 100],
+	          ['UAE', 100],
+	          ['Canada', 100],
+	          ['Laos', 100],
+	          ['Singapore', 100],
+	          ['Malaysia',100]
+	        ]);
+
+	        var options = {legend: 'none',backgroundColor:'#000011'};
+
+	        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+	        chart.draw(data, options);
+	      }
+	    </script>
+
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<!-- <h1 id="logo"><a href="index.html">Pratik Lodha</a></h1> -->
+					<nav id="nav"> </nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content align-center">
+						<header>
+						 <p class="align-center">Hello, I am </p>
+						  <h2 class="align-center">Pratik Lodha</h2>
+						  <p class="align-center">Adventurer | Traveller | Data Scientist</p>
+						</header>
+</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/rm01.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+									  <h2 class="align-center">What do you know about me? A short summary of me</h2>
+</header>
+								</div>
+								<div class="8u 12u$(medium)">
+								  <p> Born and raised amidst the heart of Mumbai, I was taken away by the rush and the run of the city. The ever pacing life and the competitive run. I did my undergratuation from IIT Bombay, and its there where I finally found peace, time for self contemplation and made best friends.<br>
+								    <br>
+								    I love to travel and aim to cover each part of the world, In addition I have great lust for the adventurous adrenaline. Trying and learning new things has become my moto. Reading books I tried, but evidently I failed, I love watching movies instead, and like to dance although not good at it.
+								    <strong>You can find more if you scroll down ... </strong> </p>
+								</div>
+								<div class="4u$ 12u$(medium)"> </div>
+							</div>
+						</div>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+			<!-- 	<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+						  <h2 class="align-center">Our product</h2>
+						  <p class="align-center">What we enable you to do is experience sound in a completely new way .</p>
+						</header>
+                        <p class="align-center">Massively connected speakers. Thousands of speakers connected together. Being <em>literally</em> surrounded by speakers creates  a surround-sound effect like never before.</p>
+						  The concert you attended last time is going to get alive with our product! Music and lighting effects like never before can be experimented upon now! <br>
+  <br>
+						  <strong>SoundSuround </strong>- your best musical experience. </p>
+						<ul class="actions">
+						  <li></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section> -->
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+						  <h2 class="align-center black">Get into my brain</h2>
+						  <p class="align-center black"> My academic journey</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Indian Institute of Technology, Bombay</div>
+									<div class="h4">Civil Engineering  <small> (2013-2017)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Coursera, distance learning</div>
+									<div class="h4">Machine Learning & Deep Learning<small> (2017-Present)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">CFA</div>
+									<div class="h4">Level 1<small> (2017-Present)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+                            </div>
+						</div>
+						<footer class="major"> </footer>
+					</div>
+				</section>
+					<section id="five" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/travel1.png" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+									  <h2 class="align-center">26 Countries 100 Cities 3 Continent</h2>
+</header>
+								</div>
+								<div class="8u 12u$(medium)">
+								  <p>Traveling opens your eyes to a world beyond the one that you're so used to seeing or hearing<br>
+								    <br>
+								    <strong>Insert something about why I kije travelling</strong> </p>
+								</div>
+								<div class="4u$ 12u$(medium)"> </div>
+							</div>
+						</div>
+					</div>
+					<a href="#six" class="goto-next scrolly">Next</a>
+				</section>
+				<section id="six" class="wrapper lm style1 special fade-up">
+					<header class="major">
+					  <div class="align-center travel_header"> <strong> My travel journey </strong> </div>
+					</header>
+					<div class="container">
+						<div class="travel_map">
+							<div id="regions_div" class="align-center" style="width: 900px; height: 500px;"></div>
+						</div>
+					</div>
+						
+				</section>
+				<section id="seven" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+						  <h2 class="align-center black">What I have done so far</h2>
+						  <p class="align-center black"> My professional experience</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Pricewater House Cooper</div>
+									<div class="h4">Experienced Associate<small> (2017-Present)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Mood Indigo, Asia's largest cultural fest</div>
+									<div class="h4">Core Group Member<small> (2015-2016)</small> </div>
+									<div>Since the start of my IIT life I was always enthusiastic of Moodi, and was part of the team throughout extensively working in organising various event across various department. I was finally selected as the Core group member of the team (A team of just 24 students) and thus begin best and most memorable year in my life. 
+									Leading a 2-tier team of 150+ volunteer I was responsible to lead the creative and assistance department. I took a lot of new initiative like brining Augmented reality, RFID and CR portal.
+									<br><br>The major contribution and impact I ceated was to improve SEO presense, digital presence via youtube, facebook and also twitter. Improving visitors experience by better direction system, all-in-one android app, automated certificate generation and AR</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Cibil Transunion</div>
+									<div class="h4">Data Scientist<small> (2015-2016)</small> </div>
+									<div>He mastered the use of various big data tools like Spark, Hadoop, Hive, Scala, SOLR & Python and also implemented various machine learning algorithm like neural network and regression to solve various business problem.<br><br>
+									He worked on the business of credit risk rating and scoring as well as generating customer and market insights based on the credit history of people in an area<br><br>
+									The overall impact to the company by his work in a short duration of 2 months was a reduction in the time take by 95% to score customers and automation of market insight generation.His contribution and performance was recognised by a pre-placement offer by the company.</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Pricewater House Cooper</div>
+									<div class="h4">Experienced Associate<small> (2017-Present)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Mood Indigo, Asia's largest cultural fest</div>
+									<div class="h4">Core Group Member<small> (2015-2016)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+							<div class="row uniform ">
+								<section class="6u 6u(medium) 12u(xsmall) fleft">
+									<div class="h3">Cibil Transunion</div>
+									<div class="h4">Data Scientist<small> (2015-2016)</small> </div>
+									<div>Blah Blah Blah</div>
+								</section>
+								<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+							</div>
+                            </div>
+						</div>
+						<footer class="major"> </footer>
+					</div>
+				</section>
+
+				<section id="eight" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/adventure1.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+									  <h2 class="align-center">Adventure Life</h2>
+</header>
+								</div>
+								<div class="8u 12u$(medium)">
+								  <p><br>
+								    <br>
+								    <strong>Insert why this is what I like</strong> </p>
+								</div>
+								<div class="4u$ 12u$(medium)"> </div>
+							</div>
+						</div>
+					</div>
+					<a href="#nine" class="goto-next scrolly">Next</a>
+				</section>
+				<section id="nine" class="wrapper lm style1 special fade-up">
+					<header class="major">
+					  <div class="align-center travel_header"> <strong> Adventure Activites </strong> </div>
+					</header>
+					<div class="container">
+						
+					</div>
+						
+				</section>
+				<section id="ten" class="wrapper lm style1 special fade-up">
+					<header class="major">
+					  <div class="align-center travel_header"> <strong> Contact Me </strong> </div>
+					</header>
+					<div class="container">
+						<section class="6u 6u(medium) 12u(xsmall)">
+									<img class="icon alt major" src="images/iitb.png"/>
+								</section>
+						<section class="6u 6u(medium) 12u(xsmall) fleft">
+							<div class="h3">Pratik Lodha</div>
+							<div class="h4">Email - Lodhapratik9@gmail.com<small></small> </div>
+							<div>Phone : +91 - 9619369767</div>
+						</section>
+								
+					</div>
+						
+				</section>
+			<!-- Footer -->
+				<footer id="footer">
+<ul class="copyright">
+	  <li>&copy; PratikLodha.com All rights reserved.</li></ul>
+		  </footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
